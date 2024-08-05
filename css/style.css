@@ -1,0 +1,523 @@
+:root {
+  --bg: white;
+  --primary: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #000;
+  cursor: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+.navbar a {
+  color: #000;
+}
+
+/* Main Navbar Start */
+
+.title a {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.title {
+  background-color: dimgray;
+  padding: 20px;
+  border-radius: 0px 0px 10px;
+  margin-left: -2%;
+  margin-top: -3%;
+}
+
+.title span {
+  color: black;
+}
+
+.title:hover a {
+  color: black;
+  margin-left: 10px;
+  transition: all ease 0.5s;
+}
+
+.title span:hover {
+  color: white;
+}
+
+.navbar .navbar-nav a {
+  color: black;
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-style: normal;
+  margin: 0.5rem;
+  padding: 2px;
+  margin-top: 1vh;
+}
+
+.navbar .navbar-nav a:hover {
+  color: rgb(124, 115, 115);
+}
+
+.navbar .navbar-nav a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid rgb(124, 115, 115);
+  transform: scaleX(0);
+}
+
+.navbar .navbar-nav a:hover::after {
+  transform: scaleX(1);
+  transition: 0.2s linear;
+}
+
+.navbar .navbar-nav a:hover a::after {
+  transform: scaleX(0.5);
+}
+.navbar-pencarian input {
+  padding: 2.5px;
+  width: 200px;
+  margin-top: -2vh;
+}
+
+.navbar-pencarian {
+  background-color: #fff;
+  padding: 2.5px;
+  border-radius: 3px;
+}
+
+/* Navbar end */
+
+/* img */
+
+.rumah-nav img {
+  width: 1264px;
+  height: 588px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(px);
+}
+
+.tentang {
+  margin-top: -30%;
+  margin-left: 16%;
+}
+
+.tentang p {
+  font-size: 1.6rem;
+}
+
+.beli {
+  background-color: dimgray;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.beli:hover {
+  background-color: black;
+  color: white;
+}
+
+.tentang a {
+  color: black;
+  font-size: 1.3rem;
+}
+
+.tentang-nav {
+  margin-top: 50vh;
+  margin-left: 48%;
+}
+
+.tentang-nav a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.tentang-kami p {
+  color: #fff;
+  margin-top: 40vh;
+  margin-left: 10vh;
+  width: 24%;
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: 1px solid #fff;
+}
+
+.tentang-nav span {
+  color: dimgrey;
+}
+
+.tentang-kami span {
+  color: dimgray;
+  font-size: 1.3rem;
+}
+
+.tentang-kami img {
+  width: 180px;
+  height: 180px;
+  margin-left: 70%;
+  margin-top: -20vh;
+  border-radius: 5px;
+}
+
+.menu-kami a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 48%;
+}
+
+.menu-kami span {
+  color: dimgray;
+}
+
+.menu-kami p {
+  color: white;
+  font-size: 0.8rem;
+  margin-left: 41%;
+}
+
+.menu-cart p {
+  color: white;
+}
+
+.rumah h2 {
+  color: #fff;
+  margin-top: 62vh;
+  margin-left: 45%;
+}
+
+.rumah span {
+  color: dimgray;
+}
+
+.menu-kami h2 {
+  color: #fff;
+  margin-top: 50vh;
+  margin-left: 45%;
+}
+.text p {
+  color: #fff;
+  margin-top: 5vh;
+  margin-left: 20vh;
+}
+
+.menu h5 {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.menu p {
+  color: #fff;
+  margin-left: 40px;
+  margin: 0.5rem;
+}
+
+.menu a {
+  background-color: white;
+  color: black;
+  padding: 3px;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+.menu img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.menu {
+  background-color: black;
+  border-bottom: 1px solid #fff;
+  padding: 15px;
+  width: 14%;
+  margin-top: 10vh;
+  margin-left: 16vh;
+  border-radius: 5px;
+}
+
+.menu-2 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.menu-2 p {
+  color: #fff;
+  margin-left: 40px;
+  margin: 0.5rem;
+}
+
+.menu-2 a {
+  background-color: white;
+  color: black;
+  padding: 3px;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+.menu-2 h5 {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.menu-2 {
+  background-color: black;
+  border-bottom: 1px solid #fff;
+  padding: 15px;
+  width: 14%;
+  margin-top: -96.5vh;
+  margin-left: 58vh;
+  border-radius: 5px;
+}
+
+/* 3 */
+
+.menu-3 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.menu-3 p {
+  color: #fff;
+  margin-left: 40px;
+  margin: 0.5rem;
+}
+
+.menu-3 a {
+  background-color: white;
+  color: black;
+  padding: 3px;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+.menu-3 h5 {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.menu-3 {
+  background-color: black;
+  border-bottom: 1px solid #fff;
+  padding: 15px;
+  width: 14%;
+  margin-top: -43.5vh;
+  margin-left: 96vh;
+  border-radius: 5px;
+}
+
+/* 4 */
+
+.menu-4 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.menu-4 p {
+  color: #fff;
+  margin-left: 40px;
+  margin: 0.5rem;
+}
+
+.menu-4 a {
+  background-color: white;
+  color: black;
+  padding: 3px;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+.menu-4 h5 {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.menu-4 {
+  background-color: black;
+  border-bottom: 1px solid #fff;
+  padding: 15px;
+  width: 14%;
+  margin-top: -43.5vh;
+  margin-left: 133vh;
+  border-radius: 5px;
+}
+
+/* 5 */
+
+.menu-5 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.menu-5 p {
+  color: #fff;
+  margin-left: 40px;
+  margin: 0.5rem;
+}
+
+.menu-5 a {
+  background-color: white;
+  color: black;
+  padding: 3px;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+.menu-5 h5 {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.menu-5 {
+  background-color: black;
+  border-bottom: 1px solid #fff;
+  padding: 15px;
+  width: 14%;
+  margin-top: -43.5vh;
+  margin-left: 170vh;
+  border-radius: 5px;
+}
+
+/* hover */
+
+.menu:hover {
+  background-color: #65728bac;
+  transition: all ease 0.2s;
+}
+
+.menu p:hover {
+  margin-left: 20px;
+  transition: all ease 0.5s;
+}
+
+.menu-2:hover {
+  background-color: #65728bac;
+  transition: all ease 0.2s;
+}
+
+.menu-2 p:hover {
+  margin-left: 20px;
+  transition: all ease 0.5s;
+}
+
+.menu-3:hover {
+  background-color: #65728bac;
+  transition: all ease 0.2s;
+}
+
+.menu-3 p:hover {
+  margin-left: 20px;
+  transition: all ease 0.5s;
+}
+
+.menu-4:hover {
+  background-color: #65728bac;
+  transition: all ease 0.2s;
+}
+
+.menu-4 p:hover {
+  margin-left: 20px;
+  transition: all ease 0.5s;
+}
+
+.menu-5:hover {
+  background-color: #65728bac;
+  transition: all ease 0.2s;
+}
+
+.menu-5 p:hover {
+  margin-left: 20px;
+  transition: all ease 0.5s;
+}
+
+.gps h2 {
+  color: #fff;
+  margin-top: 70vh;
+  margin-left: 48%;
+}
+
+.gps span {
+  color: dimgray;
+}
+
+.gps p {
+  color: white;
+  margin-top: 4%;
+  margin-left: 30%;
+}
+.row iframe {
+  margin-top: 25vh;
+  width: 80%;
+  height: 60%;
+  margin-left: 10%;
+}
+
+.row form {
+  background-color: #fff;
+  padding: 20px;
+  width: 50%;
+  margin-left: 20%;
+  border-radius: 0px 0px 10px;
+}
+
+.row input {
+  padding: 20px;
+  width: 80%;
+}
+
+.row button {
+  padding: 2px;
+  margin-top: 3%;
+  margin-left: 85%;
+}
+
+.row input:hover {
+  background-color: rgb(202, 191, 191);
+}
+
+.contact h2 {
+  color: #fff;
+  margin-top: 25vh;
+  margin-left: 48%;
+}
+
+.contact span {
+  color: dimgray;
+}
+
+.contact p {
+  color: white;
+  margin-top: 2%;
+  margin: 3rem;
+}
+
+.input-group {
+  margin: 1.5rem;
+}
